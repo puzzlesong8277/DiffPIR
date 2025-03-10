@@ -1,0 +1,11 @@
+24-12-26 15:42:57.887 : model_name:256x256_diffusion_uncond, mask_type:random, image sigma:0.000, model sigma:0.000
+24-12-26 15:42:57.887 : eta:0.000, zeta:1.000, lambda:1.000, guidance_scale:1.00 
+24-12-26 15:42:57.887 : start step:999, skip_type:quad, skip interval:50, skipstep analytic steps:0
+24-12-26 15:42:57.887 : Model path: model_zoo/256x256_diffusion_uncond.pt
+24-12-26 15:42:57.887 : testsets/mask
+24-12-26 15:42:58.884 : eta:0.000, zeta:1.000, lambda:1.000, guidance_scale:1.00
+24-12-26 15:43:03.654 : ---1--> 1_1_14.png PSNR: 25.9391dB LPIPS: 0.0927 ave LPIPS: 0.0927
+24-12-26 15:43:07.747 : ---2--> 1_1_15.png PSNR: 20.8818dB LPIPS: 0.2088 ave LPIPS: 0.1508
+24-12-26 15:43:11.852 : ---3-->  1_1_8.png PSNR: 26.5399dB LPIPS: 0.1199 ave LPIPS: 0.1405
+24-12-26 15:43:11.859 : ------> Average PSNR of (mask), sigma: (0.000): 24.4536 dB
+24-12-26 15:43:11.859 : ------> Average LPIPS of (mask), sigma: (0.000): 0.1405
